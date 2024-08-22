@@ -1,0 +1,100 @@
+{
+  "id": "577ff0b0-a7e2-4e4c-b492-2858e44862db",
+  "version": "2.0",
+  "name": "blaze",
+  "url": "https://blaze1.space",
+  "tests": [{
+    "id": "9a79493c-0969-4ef6-aa10-81acb9e740b3",
+    "name": "Untitled",
+    "commands": [{
+      "id": "e80e8a90-1eb3-4317-93d1-db0b5c518268",
+      "comment": "",
+      "command": "open",
+      "target": "/pt/games/double?modal=betting_disabled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2741382-f93c-4d4a-9d38-f242939a50b8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1234x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "498fe34f-ae4d-4a37-9b76-90b9a7eb46d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-close",
+      "targets": [
+        ["css=.fa-close", "css:finder"],
+        ["xpath=//div[@id='parent-modal-close']/i", "xpath:idRelative"],
+        ["xpath=//main/div[3]/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9e32086-24d7-4870-b44d-8de463738fa6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.subcategory-col > .active",
+      "targets": [
+        ["css=.subcategory-col > .active", "css:finder"],
+        ["xpath=//a[contains(text(),'Cassino')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div[2]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pt/casino')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75201952-566d-4076-9862-b0ec2ef14f59",
+      "comment": "",
+      "command": "click",
+      "target": "css=.entry:nth-child(6) > .roulette-tile",
+      "targets": [
+        ["css=.entry:nth-child(6) > .roulette-tile", "css:finder"],
+        ["xpath=//div[@id='roulette-recent']/div/div/div[6]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[6]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03bed5a9-aa5e-4599-b74f-7be529be3adb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d535066-6c5c-43a6-95d9-b281de4be37d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49760ad2-4f4d-4d03-b243-7df367b0b0f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=svg:nth-child(2)",
+      "targets": [
+        ["css=svg:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e01d430-eee6-4ca7-a6c3-5536aa409eec",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c3853eb2-5de3-44c9-a478-4f29ee7cfd4b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9a79493c-0969-4ef6-aa10-81acb9e740b3"]
+  }],
+  "urls": ["https://blaze1.space/"],
+  "plugins": []
+}
